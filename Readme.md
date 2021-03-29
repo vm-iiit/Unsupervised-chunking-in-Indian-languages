@@ -14,9 +14,23 @@
 
 • The aim of this project is to create a phrase based chunking algorithm for Indian Languages Chunking works on top of POS tagging, it uses pos-tags as input and provides chunks as output.
 
+## Literature survey
+
+• The unsupervised learning of natural language structure, Dan Klein March 2005
+
+• Unsupervised Chunking Basedon Graph Propagation from Bilingual Corpus, LingZhu, DerekF.Wong and LidiaS.Chao
+
+• Unsupervised acquisition of idiomatic units of symbolic natural language: An n-gram frequency-based approach for the chunking of news articles and tweets, Dario Borrelli, Gabriela Gongora Svartzman, Carlo Lipizzi (2020)
+
+• Neural Models for Sequence Chunking, FeifeiZhai, SaloniPotdar, Bing Xiang, Bowen Zhou.
+
+• A New Approach for HMM Based Chunking for Hindi (https://www.princeton.edu/~carch/sinha/nlp.pdf)
+
+• Hindi Part-of-Speech Tagging and Chunking : A Maximum Entropy Approach (https://www.researchgate.net/publication/241211496_Hindi_Part-of-Speech_Tagging_and_Chunking_A_Maximum_Entropy_Approach)
+
 ## Baselines
 
-• For baseline we will be using nltk package which has the following functions/packages:
+For baseline we will be using nltk package which has the following functions/packages:
 
 • ChunkedCorpusReader
 
@@ -24,7 +38,7 @@
 
 • RegexpParser
 
-• These also take as argument the chunk tag pattern in the form of regular expression.•Neural network models will also be used for baseline.  (CNN, RNN, Bi-LSTM)
+These also take as argument the chunk tag pattern in the form of regular expression.•Neural network models will also be used for baseline.  (CNN, RNN, Bi-LSTM)
 
 ## Unsupervised models
 
